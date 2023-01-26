@@ -1,0 +1,11 @@
+create database face_recognition;
+
+
+use face_recognition;
+
+create table regteach(fname varchar(30),lname varchar(30),cnum int,email varchar(30),ssq varchar(30),sa varchar(30),pwd int);
+
+create table stdattendance(std_id int,std_roll_no varchar(30),std_time varchar(30),std_date varchar(30),std_attendance varchar(30));
+
+create table student(Student_ID int not null auto_increment,Name varchar(30),Department varchar(30),Course varchar(30),Year varchar(30),Semester varchar(30),Division varchar(30),Gender varchar(30),DOB varchar(30),Mobile_No int,Address varchar(30),Roll_No varchar(30),Email varchar(30),Teacher_Name varchar(30),PhotoSample varchar(30),primary key(Student_ID));
+
